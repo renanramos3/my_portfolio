@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    margin: 0;
+    background-color: #ececec;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}

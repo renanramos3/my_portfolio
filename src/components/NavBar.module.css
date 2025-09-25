@@ -1,0 +1,22 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 1.4rem;
+    padding: 0 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+}
+
+.navBar p {
+    cursor: pointer;
+}
+
+.navBar p:hover {
+    /* background: #fff; */
+    color: #FFF;
+    transform: translateX(3px); /* animação de clique */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}

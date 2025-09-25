@@ -1,0 +1,124 @@
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    min-height: 500px;
+
+    /* GIF de fundo */
+    background: url("/src/assets/images/background.gif") center/cover no-repeat;
+    position: relative; /* necessário pro overlay */
+    z-index: 1;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .description {
+        gap: 1rem;
+        padding: 1rem;
+        min-height: 400px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .description img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .name p {
+        font-size: 1.8rem;
+    }
+
+    .name button {
+        padding: 10px 30px;
+        margin-right: 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .description {
+        min-height: 350px;
+    }
+
+    .description img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .name p {
+        font-size: 1.5rem;
+    }
+
+    .name button {
+        padding: 8px 20px;
+        margin-right: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+/*  Overlay para melhorar contraste do texto */
+.description::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* escurece o GIF */
+    z-index: -1; /* fica atrás do conteúdo */
+}
+
+.description img {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff; /* destaque mais clean */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* leve brilho */
+    transition: transform 0.3s ease; /* animação suave */
+}
+
+.description img:hover {
+    transform: scale(1.05); /* efeito ao passar o mouse */
+}
+
+.name p {
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.8); /* deixa mais legível */
+}
+
+.name p:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.name button {
+    padding: 12px 40px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.name button:first-of-type {
+    margin-top: 0.75rem;
+}
+
+.name button:hover {
+    background: #fff;
+    color: #000;
+    transform: translateY(-3px); /* animação de clique */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
