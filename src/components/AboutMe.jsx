@@ -2,6 +2,15 @@ import styles from "./AboutMe.module.css";
 
 import { FaGraduationCap } from "react-icons/fa6";
 import { FaBriefcase } from "react-icons/fa6";
+import {
+    FaHtml5,
+    FaCss3Alt,
+    FaJs,
+    FaReact,
+    FaGitAlt,
+    FaVuejs,
+    FaLaptopCode,
+} from "react-icons/fa";
 
 const AboutMe = () => {
     return (
@@ -9,7 +18,9 @@ const AboutMe = () => {
             <h2>About me</h2>
             <div className={styles.info}>
                 <div className={styles.description}>
-                    <p><FaBriefcase /></p>
+                    <p>
+                        <FaBriefcase />
+                    </p>
                     <p>Experience</p>
                     <p>2+ years Frontend Development</p>
                 </div>
@@ -35,14 +46,27 @@ const AboutMe = () => {
             </p>
             <h2>Skills</h2>
             <div className={styles.skills}>
-                <p>Html</p>
-                <p>CSS</p>
-                <p>JavaScript ES6</p>
-                <p>React</p>
-                <p>Git</p>
-                <p>Vue.js</p>
-                <p>Front-end</p>
-                <p>Flex-box</p>
+                <p>
+                    Html <FaHtml5 />
+                </p>
+                <p>
+                    CSS <FaCss3Alt />
+                </p>
+                <p>
+                    JavaScript ES6 <FaJs />
+                </p>
+                <p>
+                    React <FaReact />
+                </p>
+                <p>
+                    Git <FaGitAlt />
+                </p>
+                <p>
+                    Vue.js <FaVuejs />
+                </p>
+                <p>
+                    Front-end <FaLaptopCode />
+                </p>
             </div>
         </div>
     );
