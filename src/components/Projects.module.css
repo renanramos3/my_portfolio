@@ -1,3 +1,44 @@
+@media (max-width: 480px) {
+    .example {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .exampleProject {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+    }
+
+    .exampleProject img {
+        width: 100%;
+        height: auto;
+        max-width: 280px;
+        max-height: 280px;
+        object-fit: cover;
+    }
+
+    .exampleProject p {
+        width: 100%;
+        padding: 0 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .button {
+        padding: 8px 16px;
+        margin-right: 0;
+        font-size: 0.8rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .container {
     background-color: #121212;
     margin-top: 0;
@@ -34,7 +75,6 @@
     width: 90%;
     margin: 0 auto;
     padding-bottom: 0.8rem;
-    
 }
 
 .exampleProject img {
@@ -70,7 +110,6 @@
     transform: translateY(-3px); /* animação de clique */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-
 
 .buttons {
     display: flex;

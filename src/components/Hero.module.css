@@ -36,12 +36,14 @@
         padding: 10px 30px;
         margin-right: 10px;
         font-size: 0.9rem;
+        width: 140px;
     }
 }
 
 @media (max-width: 480px) {
     .description {
         min-height: 350px;
+        text-align: center;
     }
 
     .description img {
@@ -50,13 +52,20 @@
     }
 
     .name p {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .name a button {
+        display: flex;
+        align-items: center; /* alinha verticalmente */
+        justify-content: center;
     }
 
     .name button {
         padding: 8px 20px;
         margin-right: 5px;
         font-size: 0.8rem;
+        width: 120px;
     }
 }
 
@@ -98,6 +107,11 @@
     margin-bottom: 1rem;
 }
 
+.name a {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .name button {
     padding: 12px 40px;
     margin-right: 20px;
@@ -110,6 +124,8 @@
     font-weight: 500;
     transition: all 0.3s ease;
     font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .name button:first-of-type {

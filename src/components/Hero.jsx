@@ -10,14 +10,14 @@ const Hero = () => {
                 <p>Desenvolvedor Front-end</p>
                 {/* <button>Download CV</button> */}
                 <a href="/cv_renan.pdf" download="Renan-Ramos-CV.pdf">
-                    <button>Download CV</button>
+                    <button>Currículo</button>
                 </a>
                 <a
                     href="https://wa.me/12981428073?text=Olá%20Renan%2C%20vim%20do%20seu%20portfólio"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <button>Contact me</button>
+                    <button>WhatsApp</button>
                 </a>
             </div>
         </div>

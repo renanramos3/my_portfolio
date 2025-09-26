@@ -11,9 +11,9 @@ const NavBar = () => {
 
     return (
         <div className={styles.navBar}>
-            <p onClick={() => scrollToSection("about")}>About</p>
-            <p onClick={() => scrollToSection("about")}>Skills</p>
-            <p onClick={() => scrollToSection("projects")}>Projects</p>
+            <p onClick={() => scrollToSection("about")}>Sobre</p>
+            <p onClick={() => scrollToSection("about")}>Habilidades</p>
+            <p onClick={() => scrollToSection("projects")}>Projetos</p>
         </div>
     );
 };

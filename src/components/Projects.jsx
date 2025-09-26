@@ -10,7 +10,7 @@ import qrCodeImg from "../assets/images/qrcode.jpg";
 const Projects = () => {
     return (
         <div className={styles.container}>
-            <h2>Projects</h2>
+            <h2>Projetos</h2>
 
             <div className={styles.example}>
                 <div className={styles.exampleProject}>
@@ -33,14 +33,14 @@ const Projects = () => {
                             target="_blank"
                         >
                             <button className={styles.button}>
-                                View Project
+                                Ver Projeto
                             </button>
                         </a>
                         <a
                             href="https://github.com/renanramos3/primeflix"
                             target="_blank"
                         >
-                            <button className={styles.button}>View Code</button>
+                            <button className={styles.button}>Ver Código</button>
                         </a>
                     </div>
                 </div>
@@ -64,14 +64,14 @@ const Projects = () => {
                             target="_blank"
                         >
                             <button className={styles.button}>
-                                View Project
+                                Ver Projeto
                             </button>
                         </a>
                         <a
                             href="https://github.com/renanramos3/quizReact/tree/main"
                             target="_blank"
                         >
-                            <button className={styles.button}>View Code</button>
+                            <button className={styles.button}>Ver Código</button>
                         </a>
                     </div>
                 </div>
@@ -93,14 +93,14 @@ const Projects = () => {
                             target="_blank"
                         >
                             <button className={styles.button}>
-                                View Project
+                                Ver Projeto
                             </button>
                         </a>
                         <a
                             href="https://github.com/renanramos3/github_finder"
                             target="_blank"
                         >
-                            <button className={styles.button}>View Code</button>
+                            <button className={styles.button}>Ver Código</button>
                         </a>
                     </div>
                 </div>
@@ -122,14 +122,14 @@ const Projects = () => {
                             target="_blank"
                         >
                             <button className={styles.button}>
-                                View Project
+                                Ver Projeto
                             </button>
                         </a>
                         <a
                             href="https://github.com/renanramos3/geradorQrCode/tree/main"
                             target="_blank"
                         >
-                            <button className={styles.button}>View Code</button>
+                            <button className={styles.button}>Ver Código</button>
                         </a>
                     </div>
                 </div>

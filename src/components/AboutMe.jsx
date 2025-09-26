@@ -15,21 +15,21 @@ import {
 const AboutMe = () => {
     return (
         <div className={styles.container}>
-            <h2>About me</h2>
+            <h2>Sobre mim</h2>
             <div className={styles.info}>
                 <div className={styles.description}>
                     <p>
                         <FaBriefcase />
                     </p>
-                    <p>Experience</p>
-                    <p>2+ years Frontend Development</p>
+                    <p>Experiência</p>
+                    <p>+2 anos desenvolvimento Front-end</p>
                 </div>
                 <div className={styles.description}>
                     <p>
                         <FaGraduationCap />
                     </p>
-                    <p>Education</p>
-                    <p>Bachelors Degree Electrical Engineer</p>
+                    <p>Educação</p>
+                    <p>Curso superior em Engenharia Elétrica</p>
                 </div>
             </div>
             <p className={styles.about}>
