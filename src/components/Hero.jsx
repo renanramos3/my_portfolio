@@ -17,7 +17,7 @@ const Hero = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <button>WhatsApp</button>
+                    <button>Contato</button>
                 </a>
             </div>
         </div>
